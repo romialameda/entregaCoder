@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+/* NAVBAR */
+.navbar .container-fluid{
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.fuentes{
+    font-size: 1rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.fuentes li a:hover{
+    background-color: #f4f4fa;
+
+}
+
+/* ENCABEZADO */
+
+.imagenFondo {
+    background-image: url(../img/guarderia-inicio.jpg);
+    background-size: cover;
+    height: calc(100vh - 100px);
+    margin: 5px 0px 100px 0px;
+}
+
+.cajaIntro {
+    border-radius: 4px;
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 20px 2px 40px;
+    opacity: 85%;
+    max-width: 90%;
+}
+
+.bienvenidoA {
+    text-align: center;
+    font-size: 23px;
+}
+
+.titulo {
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.objetivo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.jugar {
+    color: lightgreen;
+}
+
+.aprender {
+    color: lightskyblue;
+}
+
+.crecer {
+    color: lightcoral;
+}
+
+/* */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+
+/* Colors */
+:root {
+    --color-default: #212529;
+    --color-primary: lightcoral;
+    --color-secondary: #37373f;
+}
+
+/* Smooth scroll behavior */
+
+
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+}
+
+h2 {
+    font-family: var(--font-secondary);
+}
+
+section {
+    overflow: hidden;
+    padding: 80px 0;
+    background-color: lightblue;
+}
+
+.section-bg {
+    background-color: #7f7f90;
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+.section-header p span {
+    color: lightcoral;
+}
+
+.blanco{
+    background-color: #fff;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    padding-top: 0;
+}
+
+.tituloAbout{
+    text-transform: uppercase;
+}
+
+.about .about-img {
+    min-height: 500px;
+}
+
+.about .content ul {
+    padding: 0;
+}
+
+.about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+}
+
+.about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: var(--color-primary);
+}
+
+
+/************** CARPETA HTML ********************/
+.tituloDos {
+    margin-top: 50px;
+}
+
+.objetivoDos {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.tituloSecundario {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/******* PROGRAMA *******/
+
+/* GRILLA ACTIVIDADES*/
+.actividad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.act {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.actImagen {
+    width: 98px;
+    height: 90px;
+    align-self: center;
+    margin: auto;
+}
+
+.actTitulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.actDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/**** EVENTOS ****/
+.colorBtn{
+    background-color: lightgreen;
+}
+
+/*** NOTICIAS *****/
+#seccionNoticias {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#seccionNoticia .noticiaTexto p {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.tituloNoticia {
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.imgNoticia {
+    width: 20vw;
+    margin: 20px 20px;
+    margin-right: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin: 20px 40% 20px 40%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
