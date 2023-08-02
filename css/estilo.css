@@ -288,3 +288,44 @@ button {
     cursor: pointer;
     border: none;
 }
+
+/***** CONTACTO ******/
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #394464;
+}
+
+.campos {
+    display: block;
+    width: 500pX;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.divContacto {
+    margin-left: 20px;
+}
+
+.divContacto p,
+.divContacto h3 {
+    text-align: left;
+}
+
